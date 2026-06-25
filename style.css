@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: #f0f0f0;
+  padding: 10vh 25vw;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.img-div img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.btn {
+  margin-top: 16px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(to right, #6c63ff, #ff6e7f);
+  cursor: pointer;
+}
